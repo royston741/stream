@@ -1,0 +1,45 @@
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu_link {
+  margin: 0 3px;
+  padding: 16px 12px;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.menu_link_active {
+  border-bottom: 1px solid rgb(25, 121, 211);
+}
+
+.menu_link_active li{
+  font-weight: 500;
+}
+
+.menu_link:hover {
+  background-color: #8080804c;
+}
+
+@media screen and (max-width:1000px){
+  .menu li{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:920px){
+  .menu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu_link{
+    padding: 10px;
+  }
+
+  .menu_link_active{
+    border: none;
+  }
+}

@@ -1,0 +1,42 @@
+.all_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    background-color: #222222;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.all_list li{
+    color: white;
+    margin: 0 15px;
+    font-weight: 100;
+}
+
+.all_link_active{
+    color: rgb(25, 121, 211);
+    text-decoration:underline ;
+}
+
+.all_link_active li{
+    font-weight: 600;
+    color: rgb(25, 121, 211);   
+}
+
+@media  screen and (max-width:1000px) {
+    .all_list{
+        margin-top: 5px;
+    }   
+}
+
+@media  screen and (max-width:920px) {
+    .all_list{
+        position: static;
+        background: transparent;
+        margin: 0;
+    }
+
+    .all_list li{
+        margin:0 10px 10px;
+    }
+}

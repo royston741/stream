@@ -1,0 +1,33 @@
+.hamberger_container{
+    display: none;
+}
+
+.hamberger_btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 45px;
+  height: 40px;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hamberger_btn:hover{
+  background-color: #8080804c;
+}
+
+.hamberger_btn div{
+    border-bottom: 1px solid white;
+    margin: 7px 0;
+}
+
+
+@media screen and (max-width:920px){
+    .hamberger_container{
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+}

@@ -1,0 +1,36 @@
+.profile_list {
+  position: absolute;
+  background-color: #222222;
+  color: white;
+  margin-top: 5px;
+}
+
+.profile_list li p {
+  font-weight: 300;
+  padding: 5px 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.profile_list li p img {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(25, 121, 211);
+  margin-right: 10px;
+}
+
+.profile_list li p:hover {
+  background-color: #1979d363;
+}
+
+@media  screen and (max-width:920px) {
+  .profile_list{
+    position: static;
+    background: transparent;
+  }  
+
+  .profile_list li p{
+    font-size: 0.9rem;
+  }
+}

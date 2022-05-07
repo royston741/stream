@@ -1,0 +1,55 @@
+.all_btn {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.all_btn p {
+  margin: 0 10px 0 0;
+  font-weight: lighter;
+}
+
+.menu_btn {
+  margin: 0 3px;
+  padding: 19px 13px 15px;
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.menu_btn:hover {
+  background-color: rgba(128, 128, 128, 0.299);
+}
+
+.user_img {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(25, 121, 211);
+  margin-right: 10px;
+}
+
+.user_btn {
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+
+.user_btn:hover {
+  background-color: rgba(128, 128, 128, 0.299);
+}
+
+@media screen and (max-width: 1000px) {
+  .menu_btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media  screen and (max-width:920px) {
+  .user_btn{
+    margin-top: 10px;
+  }
+}

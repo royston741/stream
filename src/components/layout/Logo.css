@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+.logo{
+    font-family: 'Saira Stencil One', cursive;
+    color: rgb(25, 121, 211);
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.logo_size{
+    font-size: 2.6rem;
+}
+
+@media screen and (max-width:1000px){
+    .logo_size{
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width:450px){
+    .logo{
+        font-size: 2rem;
+    }
+}
+
